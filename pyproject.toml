@@ -6,4 +6,9 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "requests>=2.32.5",
+    "click",
+    "rich",
 ]
+[project.scripts]
+typetest = "typetest.cli:cli"
+
